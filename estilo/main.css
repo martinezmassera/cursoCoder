@@ -349,7 +349,7 @@ header li a:hover {
 }
 
 .verdura {
-  background-image: url(../../multimedia/imagen/recetas/iconos/verdura.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/verdura.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -357,7 +357,7 @@ header li a:hover {
 }
 
 .carne {
-  background-image: url(../../multimedia/imagen/recetas/iconos/carne.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/carne.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -365,7 +365,7 @@ header li a:hover {
 }
 
 .pasta {
-  background-image: url(../../multimedia/imagen/recetas/iconos/pasta.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/pasta.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -373,7 +373,7 @@ header li a:hover {
 }
 
 .pollo {
-  background-image: url(../../multimedia/imagen/recetas/iconos/pollo.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/pollo.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -381,7 +381,7 @@ header li a:hover {
 }
 
 .pescado {
-  background-image: url(../../multimedia/imagen/recetas/iconos/pescado.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/pescado.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -389,7 +389,7 @@ header li a:hover {
 }
 
 .facil {
-  background-image: url(../../multimedia/imagen/recetas/iconos/facil.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/facil.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -397,7 +397,7 @@ header li a:hover {
 }
 
 .medio {
-  background-image: url(../../multimedia/imagen/recetas/iconos/medio.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/medio.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;
@@ -405,7 +405,7 @@ header li a:hover {
 }
 
 .dificil {
-  background-image: url(../../multimedia/imagen/recetas/iconos/dificil.svg);
+  background-image: url(../multimedia/imagen/recetas/iconos/dificil.svg);
   background-repeat: no-repeat;
   font-size: 1.2rem;
   padding: 1rem;

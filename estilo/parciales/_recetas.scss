@@ -60,7 +60,7 @@ $recetas: (verdura, carne, pasta, pollo, pescado);
 
 @each $tipo in $recetas {
     .#{$tipo} {
-        background-image: url(../../multimedia/imagen/recetas/iconos/#{$tipo}.svg);
+        background-image: url(../multimedia/imagen/recetas/iconos/#{$tipo}.svg);
         background-repeat:no-repeat;
         font-size: 1.2rem;
         padding: 1rem;
@@ -72,7 +72,7 @@ $dificultad: (facil, medio, dificil);
 
 @each $nivel in $dificultad {
     .#{$nivel} {
-        background-image: url(../../multimedia/imagen/recetas/iconos/#{$nivel}.svg);
+        background-image: url(../multimedia/imagen/recetas/iconos/#{$nivel}.svg);
         background-repeat:no-repeat;
         font-size: 1.2rem;
         padding: 1rem;
