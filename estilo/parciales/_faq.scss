@@ -1,0 +1,37 @@
+.faq {
+    text-align: start;
+
+    @include tablet {
+        height: 78vh;
+    }
+
+    @include movil {
+        height: auto;
+    }
+
+    &__titulos {
+        font-weight: $peso_texto;
+        font-size: $tam_texto;
+        text-align: $alineacion_texto;
+        padding-top: $padding_texto;
+
+        @include movil {
+            padding-top: $padding_texto_movil;
+        }
+    }
+}
+
+.accordion {
+    font-size: 0.9rem;
+
+    &-button {
+        color: #243b61;
+        background-color: #243b6175;
+    }
+}
+
+.paMov {
+    @include movil {
+        margin-top: 2rem;
+    }
+}

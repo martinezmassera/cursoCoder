@@ -1,0 +1,509 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header .navbar {
+  padding: 1rem;
+}
+
+header .navbar .container-fluid {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media screen and (max-width: 768px) {
+  header .navbar .container-fluid {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  header .navbar .container-fluid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .navbar .container-fluid {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+header .logo {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+header .navbar-light .navbar-nav .nav-link.active {
+  color: #2e518b;
+}
+
+header .navbar-light .navbar-nav .nav-link {
+  color: #243b61;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+  color: #243b61c4;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1rem;
+}
+
+header li {
+  list-style: none;
+  margin: 1rem;
+}
+
+header li a {
+  text-decoration: none;
+  color: #2e518b;
+  font-size: 1.5rem;
+}
+
+header li a:hover {
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+
+.categoria {
+  margin: 2rem;
+}
+
+.categoria__imagenes {
+  width: 65%;
+  height: auto;
+  border-radius: 15%;
+}
+
+@media screen and (max-width: 375px) {
+  .categoria__imagenes {
+    width: 60%;
+  }
+}
+
+.categoria h3 {
+  padding: 1rem;
+}
+
+.home__texto {
+  padding: 1rem;
+}
+
+@media screen and (max-width: 375px) {
+  .home__texto {
+    padding: 2rem;
+  }
+}
+
+.galeria {
+  background: black;
+  background: -webkit-gradient(linear, left bottom, left top, from(black), color-stop(33%, #747373), to(#e6e6e6));
+  background: linear-gradient(0deg, black 0%, #747373 33%, #e6e6e6 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#e6e6e6", GradientType=1);
+  padding: 1rem;
+}
+
+.galeria__titulos {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .galeria__titulos {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .galeria__titulos {
+    padding-top: 1rem;
+  }
+}
+
+.galeria__imagenes {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (2fr)[5];
+      grid-template-columns: repeat(5, 2fr);
+  -ms-grid-rows: (15vw)[3];
+      grid-template-rows: repeat(3, 15vw);
+  grid-gap: 10px;
+  margin: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .galeria__imagenes {
+    -ms-grid-columns: (5fr)[3];
+        grid-template-columns: repeat(3, 5fr);
+    -ms-grid-rows: (35vw)[8];
+        grid-template-rows: repeat(8, 35vw);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .galeria__imagenes {
+    -ms-grid-columns: (5fr)[2];
+        grid-template-columns: repeat(2, 5fr);
+    -ms-grid-rows: (35vw)[8];
+        grid-template-rows: repeat(8, 35vw);
+  }
+}
+
+.galeria__imgInt {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.galeria__imgInt:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.nosotros {
+  text-align: center;
+}
+
+.nosotros__texto {
+  padding: 3rem;
+}
+
+@media screen and (max-width: 375px) {
+  .nosotros__texto {
+    padding-bottom: 1rem;
+  }
+}
+
+.nosotros__titulos {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 375px) {
+  .nosotros__titulos {
+    padding-top: 1rem;
+  }
+}
+
+.equipo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.individuales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .individuales {
+    width: 100%;
+    margin: 0.5rem;
+  }
+}
+
+.individuales__imgindi {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.individuales__imgindi h3 {
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.individuales__imgindi img {
+  width: 80%;
+  border-radius: 15%;
+}
+
+.recetas {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 3rem;
+}
+
+.recetas__titulos {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 375px) {
+  .recetas__titulos {
+    padding-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .recetas {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 7rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .recetas {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin: 0.5rem;
+  }
+}
+
+.recetas__Individuales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(216, 215, 194, 0.316);
+  border-radius: 15%;
+}
+
+.recetas__Individuales img {
+  border-radius: 15% 15% 0 0;
+}
+
+.recetas__texto a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.verdura {
+  background-image: url(../../multimedia/imagen/recetas/iconos/verdura.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.carne {
+  background-image: url(../../multimedia/imagen/recetas/iconos/carne.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.pasta {
+  background-image: url(../../multimedia/imagen/recetas/iconos/pasta.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.pollo {
+  background-image: url(../../multimedia/imagen/recetas/iconos/pollo.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.pescado {
+  background-image: url(../../multimedia/imagen/recetas/iconos/pescado.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.facil {
+  background-image: url(../../multimedia/imagen/recetas/iconos/facil.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.medio {
+  background-image: url(../../multimedia/imagen/recetas/iconos/medio.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.dificil {
+  background-image: url(../../multimedia/imagen/recetas/iconos/dificil.svg);
+  background-repeat: no-repeat;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-position: center;
+}
+
+.faq {
+  text-align: start;
+}
+
+@media screen and (max-width: 768px) {
+  .faq {
+    height: 78vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .faq {
+    height: auto;
+  }
+}
+
+.faq__titulos {
+  font-weight: 700;
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 375px) {
+  .faq__titulos {
+    padding-top: 1rem;
+  }
+}
+
+.accordion {
+  font-size: 0.9rem;
+}
+
+.accordion-button {
+  color: #243b61;
+  background-color: #243b6175;
+}
+
+@media screen and (max-width: 375px) {
+  .paMov {
+    margin-top: 2rem;
+  }
+}
+
+.footerSass {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  justify-items: center;
+  background-color: black;
+}
+
+.footerSass__Info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.footerSass__Info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footerSass__img {
+  width: 5%;
+}
+
+.footerSass__Texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redesSociales {
+  font-size: 1.2rem;
+  padding: 0.2rem;
+}
+/*# sourceMappingURL=main.css.map */

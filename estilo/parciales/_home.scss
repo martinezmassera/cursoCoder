@@ -1,0 +1,28 @@
+@import "./media-queries";
+
+.categoria {
+    margin: 2rem;
+
+    &__imagenes {
+        width: 65%;
+        height: auto;
+        border-radius: 15%;
+
+        @include movil {
+            width: 60%;
+        }
+    }
+
+    & h3 {
+        padding: 1rem;
+    }
+}
+
+.home{
+    &__texto{
+        padding: 1rem;
+        @include movil{
+            padding: 2rem;
+        }
+    }
+}

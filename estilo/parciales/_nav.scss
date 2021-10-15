@@ -1,0 +1,68 @@
+@import "./media-queries";
+
+// MENU NAV 
+
+header {
+
+
+    .navbar {
+        padding: 1rem;
+
+        .container-fluid {
+            flex-direction: column;
+
+            @include tablet {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+
+            @include tabletAcostada {
+                flex-direction: column;
+            }
+
+            @include movil {
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .logo {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        color: #2e518b;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #243b61;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #243b61c4;
+    }
+
+    ul {
+        display: flex;
+        padding-top: 1rem;
+
+    }
+
+    li {
+        list-style: none;
+        margin: 1rem;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #2e518b;
+        font-size: 1.5rem;
+    }
+
+    li a:hover {
+        letter-spacing: 0.1rem;
+        font-weight: 600;
+    }
+}
