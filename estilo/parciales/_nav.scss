@@ -28,8 +28,45 @@ header {
     }
 
     .logo {
-        font-size: 3rem;
-        font-weight: 600;
+        width: 8%;
+
+        @include movil {
+            display: none;
+        }
+
+        @include tablet {
+            display: none;
+        }
+    }
+
+    .logoMovil {
+        display: none;
+
+
+        @include tablet {
+            display: none;
+        }
+
+        @include movil {
+            display: block;
+            width: 35%;
+        }
+
+    }
+
+    .logoTablet {
+        display: none;
+
+
+        @include tablet {
+            display: block;
+            width: 35%;
+        }
+
+        @include movil {
+            display: none;
+        }
+
     }
 
     .navbar-light .navbar-nav .nav-link.active {
@@ -46,13 +83,13 @@ header {
 
     ul {
         display: flex;
-        padding-top: 1rem;
+        padding-top: 0.8rem;
 
     }
 
     li {
         list-style: none;
-        margin: 1rem;
+        margin: 0rem 1rem;
     }
 
     li a {

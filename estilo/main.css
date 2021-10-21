@@ -50,8 +50,53 @@ header .navbar .container-fluid {
 }
 
 header .logo {
-  font-size: 3rem;
-  font-weight: 600;
+  width: 8%;
+}
+
+@media screen and (max-width: 375px) {
+  header .logo {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header .logo {
+    display: none;
+  }
+}
+
+header .logoMovil {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header .logoMovil {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .logoMovil {
+    display: block;
+    width: 35%;
+  }
+}
+
+header .logoTablet {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header .logoTablet {
+    display: block;
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  header .logoTablet {
+    display: none;
+  }
 }
 
 header .navbar-light .navbar-nav .nav-link.active {
@@ -70,12 +115,12 @@ header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 1rem;
+  padding-top: 0.8rem;
 }
 
 header li {
   list-style: none;
-  margin: 1rem;
+  margin: 0rem 1rem;
 }
 
 header li a {
