@@ -26,7 +26,11 @@
 
     &-button {
         color: #243b61;
-        background-color: #243b6175;
+        background-color: #d7d9db;
+    }
+    &-button:not(.collapse){
+        color:black;
+        background-color: #f8f9fac7;
     }
 }
 
