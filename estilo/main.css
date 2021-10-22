@@ -18,6 +18,15 @@ header .navbar .container-fluid {
           flex-direction: column;
 }
 
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  header .navbar .container-fluid {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 @media screen and (max-width: 768px) {
   header .navbar .container-fluid {
     -webkit-box-orient: horizontal;
@@ -26,15 +35,6 @@ header .navbar .container-fluid {
             flex-direction: row;
     -ms-flex-pack: distribute;
         justify-content: space-around;
-  }
-}
-
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-  header .navbar .container-fluid {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
