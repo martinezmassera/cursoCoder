@@ -38,7 +38,7 @@ header .navbar .container-fluid {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   header .navbar .container-fluid {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -53,7 +53,7 @@ header .logo {
   width: 8%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   header .logo {
     display: none;
   }
@@ -75,7 +75,7 @@ header .logoMovil {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   header .logoMovil {
     display: block;
     width: 35%;
@@ -93,7 +93,7 @@ header .logoTablet {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   header .logoTablet {
     display: none;
   }
@@ -144,7 +144,7 @@ header li a:hover {
   border-radius: 15%;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .categoria__imagenes {
     width: 60%;
   }
@@ -158,7 +158,7 @@ header li a:hover {
   padding: 1rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .home__texto {
     padding: 2rem;
   }
@@ -185,7 +185,7 @@ header li a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .galeria__titulos {
     padding-top: 1rem;
   }
@@ -211,7 +211,7 @@ header li a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .galeria__imagenes {
     -ms-grid-columns: (5fr)[2];
         grid-template-columns: repeat(2, 5fr);
@@ -241,7 +241,7 @@ header li a:hover {
   padding: 3rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .nosotros__texto {
     padding-bottom: 1rem;
   }
@@ -254,7 +254,7 @@ header li a:hover {
   padding-top: 4rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .nosotros__titulos {
     padding-top: 1rem;
   }
@@ -283,7 +283,7 @@ header li a:hover {
   margin: 2rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .individuales {
     width: 100%;
     margin: 0.5rem;
@@ -335,7 +335,7 @@ header li a:hover {
   padding-top: 4rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .recetas__titulos {
     padding-top: 1rem;
   }
@@ -349,7 +349,7 @@ header li a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .recetas {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -467,7 +467,7 @@ header li a:hover {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .faq {
     height: auto;
   }
@@ -480,7 +480,7 @@ header li a:hover {
   padding-top: 4rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .faq__titulos {
     padding-top: 1rem;
   }
@@ -500,7 +500,7 @@ header li a:hover {
   background-color: #f8f9fac7;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .paMov {
     margin-top: 2rem;
   }
