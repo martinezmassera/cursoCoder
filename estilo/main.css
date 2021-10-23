@@ -444,6 +444,7 @@ header li a:hover {
   font-size: 3rem;
   text-align: center;
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 425px) {
@@ -470,6 +471,10 @@ header li a:hover {
   .paMov {
     margin-top: 2rem;
   }
+}
+
+.datosContacto h5 {
+  font-weight: 700;
 }
 
 .footerSass {
