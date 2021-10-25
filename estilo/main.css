@@ -197,6 +197,13 @@ header li a:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .galeria__imagenes:hover {
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
 .nosotros {
   text-align: center;
 }
