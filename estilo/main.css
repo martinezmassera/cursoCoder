@@ -286,17 +286,59 @@ header li a:hover {
   border-radius: 15%;
 }
 
-.recetas {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  margin: 3rem;
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.card-title {
+  margin: 1rem 0rem;
+}
+
+.button-container {
+  display: inline-block;
+  position: relative;
+}
+
+.button-container a {
+  position: absolute;
+  bottom: -2rem;
+  right: 1rem;
+  background-color: #8F0005;
+  border-radius: 100%;
+  color: white;
+  text-transform: uppercase;
+  padding: 1rem 1.5rem;
+}
+
+.button-container a:hover {
+  background-color: #dddddd;
+  color: #8F0005;
+}
+
+.video-responsive {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+
+.video-responsive iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 1rem;
 }
 
 .recetas__titulos {
@@ -304,137 +346,13 @@ header li a:hover {
   font-size: 3rem;
   text-align: center;
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 425px) {
   .recetas__titulos {
     padding-top: 1rem;
   }
-}
-
-@media screen and (max-width: 768px) {
-  .recetas {
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
-    margin-bottom: 7rem;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .recetas {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    margin: 0.5rem;
-  }
-}
-
-.recetas__Individuales {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 1rem;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #F8F9FA;
-  border-radius: 15%;
-}
-
-.recetas__Individuales img {
-  border-radius: 15% 15% 0 0;
-}
-
-.recetas__texto h3 {
-  font-size: 2rem;
-  font-weight: 700;
-  padding: 0.4rem;
-}
-
-.recetas__texto a {
-  text-decoration: none;
-  color: black;
-}
-
-.recetas__tipo {
-  margin-bottom: 0.5rem;
-}
-
-.responsive {
-  width: 100%;
-  height: auto;
-}
-
-.verdura {
-  background-image: url(../multimedia/imagen/recetas/iconos/verdura.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.carne {
-  background-image: url(../multimedia/imagen/recetas/iconos/carne.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.pasta {
-  background-image: url(../multimedia/imagen/recetas/iconos/pasta.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.pollo {
-  background-image: url(../multimedia/imagen/recetas/iconos/pollo.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.pescado {
-  background-image: url(../multimedia/imagen/recetas/iconos/pescado.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.facil {
-  background-image: url(../multimedia/imagen/recetas/iconos/facil.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.medio {
-  background-image: url(../multimedia/imagen/recetas/iconos/medio.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
-}
-
-.dificil {
-  background-image: url(../multimedia/imagen/recetas/iconos/dificil.svg);
-  background-repeat: no-repeat;
-  font-size: 1.2rem;
-  padding: 1rem;
-  background-position: center;
 }
 
 .faq {
