@@ -27,8 +27,11 @@ header {
         }
     }
 
-    .logo {
-        width: 8%;
+    #logoDesktop {
+        & img{
+            width: 70%;
+        }
+
 
         @include movil {
             display: none;
@@ -39,9 +42,9 @@ header {
         }
     }
 
-    .logoMovil {
+    #logoMovil {
         display: none;
-
+        width: 50%;
 
         @include tablet {
             display: none;
@@ -49,24 +52,31 @@ header {
 
         @include movil {
             display: block;
-            width: 35%;
+           & img{
+               width: 80%;
+           }
+
         }
 
     }
 
-    .logoTablet {
+    #logoTablet {
         display: none;
+        width: 50%;
 
 
         @include tablet {
             display: block;
-            width: 35%;
+
         }
 
         @include movil {
             display: none;
         }
 
+        & img {
+            width: 80%;
+        }
     }
 
     .navbar-light .navbar-nav .nav-link.active {
