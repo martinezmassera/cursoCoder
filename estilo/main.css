@@ -167,7 +167,7 @@ header li a:hover {
 
 @media screen and (max-width: 425px) {
   .home__texto {
-    padding: 0.2rem 0.2rem;
+    padding: 0 1.5rem;
   }
 }
 
