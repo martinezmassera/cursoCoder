@@ -23,7 +23,7 @@
     &__texto{
         padding: 1rem;
         @include movil{
-            padding: 2rem;
+            padding: 0.2rem 1rem;
         }
     }
 }
