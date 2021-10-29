@@ -7,6 +7,7 @@
 
 .card-title {
     margin: 1rem 0rem;
+    font-weight: bold;
 }
 
 //inicio Boton Play modal //
@@ -24,7 +25,8 @@
     color: white;
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    &:hover{
+
+    &:hover {
         background-color: #dddddd;
         color: #8F0005;
     }
@@ -52,6 +54,13 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 1rem;
+
+    &__detalle {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        padding: 0.5rem;
+    }
 }
 
 .recetas__titulos {
