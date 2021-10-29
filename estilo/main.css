@@ -473,6 +473,7 @@ header li a:hover {
       align-content: flex-end;
   text-align: center;
   line-height: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .footerSass__Info a {
