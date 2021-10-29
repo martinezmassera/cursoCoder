@@ -13,9 +13,11 @@
         font-size: $tam_texto;
         text-align: $alineacion_texto;
         padding-top: $padding_texto;
-    @include movil{
-        padding-top: $padding_texto_movil;
-    }
+        margin-bottom: 2rem;
+    
+        @include movil {
+            padding-top: $padding_texto_movil;
+        }
     }
 }
 

@@ -4,20 +4,14 @@
 
   &__titulos {
     font-weight: $peso_texto;
-    font-size: $tam_texto;
-    text-align: $alineacion_texto;
-    padding-top: $padding_texto;
-    padding-bottom: 2rem;
-
-    @include tablet {
-      padding-top: $padding_texto_movil;
-    }
-
-    @include movil {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-
-    }
+        font-size: $tam_texto;
+        text-align: $alineacion_texto;
+        padding-top: $padding_texto;
+        margin-bottom: 2rem;
+    
+        @include movil {
+            padding-top: $padding_texto_movil;
+        }
   }
 
   &__container {

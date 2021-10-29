@@ -176,19 +176,12 @@ header li a:hover {
   font-size: 3rem;
   text-align: center;
   padding-top: 4rem;
-  padding-bottom: 2rem;
-}
-
-@media screen and (max-width: 768px) {
-  .galeria__titulos {
-    padding-top: 1rem;
-  }
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 425px) {
   .galeria__titulos {
     padding-top: 1rem;
-    padding-bottom: 1rem;
   }
 }
 
@@ -251,6 +244,7 @@ header li a:hover {
   font-size: 3rem;
   text-align: center;
   padding-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 425px) {
